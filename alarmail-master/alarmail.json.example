@@ -1,0 +1,28 @@
+{
+  "port": 9001,
+  "alarm": {
+    "enabled": true,
+    "devices": [
+      {
+        "deviceId": 1
+      }
+    ],
+    "suppressScript": ""
+  },
+  "nma": {
+    "enabled": false,
+    "apiKey": "deadc0de"
+  },
+  "email": {
+    "enabled": false,
+    "emailAddress": "example@example.com",
+    "nodemailerConfig": {
+      "service": "Gmail",
+      "auth": {
+        "user": "user@gmail.com",
+        "pass": "password"
+      }
+    }
+  },
+  "suppressScript": ""
+}
